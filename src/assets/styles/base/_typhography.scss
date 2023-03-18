@@ -1,0 +1,179 @@
+html,
+body {
+  color: $themeTextColor;
+  font-size: $themeFontSize;
+  line-height: $themeLineHeight;
+  font-weight: $fontWeightRegular;
+  font-family: $primaryFont;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  pointer-events: none;
+}
+
+.text-start {
+  text-align: start;
+}
+
+p {
+  margin: 0;
+  color: $themeTextColor;
+  font-size: $themeFontSize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: $primaryFont;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: $primaryFont;
+}
+
+h2 {
+  font-size: 45px;
+  line-height: 58px;
+  font-weight: $fontWeightMediumBold;
+  font-family: $primaryFont;
+}
+
+h3 {
+  font-size: 25px;
+  line-height: 36px;
+  font-weight: $fontWeightMediumBold;
+  font-family: $primaryFont;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: $fontWeightMediumBold;
+  font-family: $primaryFont;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: $fontWeightMediumBold;
+  font-family: $primaryFont;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: $fontWeightMediumBold;
+  font-family: $primaryFont;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  outline: none !important;
+  font-family: $primaryFont;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  text-decoration: none;
+  outline: 0 none;
+  font-family: $primaryFont;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+i {
+  font-family: "fontawesome";
+  font-style: inherit;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form-check:not(.form-switch) .form-check-input[type="checkbox"] {
+  outline: none;
+}
+
+.single-module-permission-wrapper .single-module .single-check-box input {
+  outline: none;
+  margin-right: 5px;
+}
+input:focus {
+  outline: 0;
+  box-shadow: none;
+  background: none;
+}
+
+textarea:focus {
+  border: 1px solid transparent !important;
+  box-shadow: none;
+  border-radius: 0 !important;
+}
+
+blockquote {
+  padding: 25px 35px;
+  margin-left: 30px;
+  margin: 30px 0 30px 30px;
+}
+
+blockquote p:last-child {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+@keyframes autofill {
+  to {
+    color: inherit;
+    background: transparent;
+  }
+}
+
+input:disabled {
+  background: #cccccc70 !important;
+}
+
+input {
+  ::placeholder {
+    color: #666;
+  }
+}
+
+input:-webkit-autofill {
+  -webkit-animation-name: autofill;
+  -webkit-animation-fill-mode: both;
+}
+select:disabled {
+  background: $selectDisabledBg;
+}
+.add-btn {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #ff6247;
+  height: 41px;
+  margin-left: 8px;
+  font-weight: 600;
+}
