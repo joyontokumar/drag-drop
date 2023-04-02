@@ -1,4 +1,4 @@
-**DRAG AND DROP ASSIGNMENT**
+**DRAG AND DROP
 
 In the project directory, you can run:
 
